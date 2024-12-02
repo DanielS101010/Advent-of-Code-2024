@@ -48,7 +48,6 @@ def d2p2():
                     for i in range(len(numbers)):
 
                         numbers1 = numbers[:i] + numbers[i + 1:]
-                        print(numbers1)
                         if range_validation(numbers1):
                             counter += 1
                             break
